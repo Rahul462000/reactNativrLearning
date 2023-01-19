@@ -1,25 +1,19 @@
 // importing libraries to create components
 import React from "react";
-import { Text, StyleSheet, View } from "react-native";
-import CustomComponent from "./src/screens/CustomComponen";
+import { Text, StyleSheet } from "react-native";
 
 //create a component that return some jsx or in simple words simple function
-const App = () => {
-  return (
-    <View>
-      <Text style={styles.textStyle}>Hello everyone😉From app.js!</Text>
-      <CustomComponent />
-    </View>
-  )
+const CustomComponent = () => {
+  return <Text style={styles.textStyle}>Hello everyone😉 this is my custom component!
+  </Text>;
 };
 
 //create a StyleSheet to style the component
 const styles = StyleSheet.create({
   textStyle: {
     color: "red",
-    marginTop: 200,
   },
 });
 
 // export the file, so that we can use it elsewhere in our app
-export default App;
+export default CustomComponent;
