@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     padding:20,
     backgroundColor:'green',
-    margin:20,
+    margin:2,
     color: 'white',
   },
   listStyle:{

@@ -1,32 +1,19 @@
 import React from 'react'
-import { View,StyleSheet,Text,Image } from 'react-native'
+import { View } from 'react-native'
+import CardDetails from '../Components/CardDetails'
+
+// Note that for props study in react native we will treate this file as parent and CardDetails page as child component
 
 // IMPORTANT note that always store static content that doesnot change its value in the assets folder
 
 const ImagesFile = () => {
   return (
-    <View style = {styles.listStyle}>
-        <Text>Hello this is a image file section</Text>
-        <Image  style = {styles.imageStyle}  source={require("../../assets/pexelscoding.webp")} />
-        <Image  style = {styles.imageStyle}  source={require("../../assets/pexelcoding2.jpg")} />
-        <Image  style = {styles.imageStyle}  source={require("../../assets/pexelscoding3.jpg")} />
-        <Image  style = {styles.imageStyle}  source={require("../../assets/pexelscoding4.jpg")} />
-        <Image  style = {styles.imageStyle}  source={require("../../assets/pexelscars.jpg")} />
-    </View>
+    <View>
+      <CardDetails textData = 'this is first image' ImgSrc={require("../../assets/pexelscoding.webp")}  />
+      <CardDetails textData = 'this is second image' ImgSrc={require("../../assets/pexelcoding2.jpg")} />
+      <CardDetails textData = 'this is third image' ImgSrc={require("../../assets/pexelscoding3.jpg")} />
+    </View> 
   )
 }
-
-const styles = StyleSheet.create({
-    listStyle:{
-        display:'flex',
-        justifyContent:'center',
-        alignItems: 'center',
-    },
-    imageStyle:{
-        width:250,
-        height: 250,
-    }
-
-})
 
 export default ImagesFile

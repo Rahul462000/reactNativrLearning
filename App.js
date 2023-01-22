@@ -12,6 +12,8 @@ import CustomComponent from "./src/screens/CustomComponen";
 import FirstChallenge from "./src/screens/FirstChallenge";
 import FlatListDemo from "./src/screens/FlatListDemo";
 import ImagesFile from "./src/screens/ImagesFile";
+import OurButton from "./src/screens/OurButton";
+import NetflixCard from "./src/Components/NetflixCard";
 
 //create a component that return some jsx or in simple words simple function
 const App = () => {
@@ -34,14 +36,20 @@ const App = () => {
       {myEelement}
       {/* below is the fifth rule */}
       <Text>Hi, {getFullname("tony", "stark")} </Text>
-      <FirstChallenge />
+      {/* <FirstChallenge /> */}
 
 
       {/* flatlist using demo */}
-      <FlatListDemo />
+      {/* <FlatListDemo /> */}
 
       {/* usage of images in react native */}
-      <ImagesFile />
+      {/* <ImagesFile /> */}
+
+      {/* usage of button in react-native */}
+      {/* <OurButton /> */}
+
+      {/* making of netflix card */}
+      <NetflixCard />
       
     </View>
   );
@@ -51,7 +59,7 @@ const App = () => {
 const styles = StyleSheet.create({
   textStyle: {
     color: "red",
-    marginTop: 200,
+    marginTop: 20,
   },
 });
 
