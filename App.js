@@ -9,6 +9,9 @@
 import React from "react";
 import { Text, StyleSheet, View } from "react-native";
 import CustomComponent from "./src/screens/CustomComponen";
+import FirstChallenge from "./src/screens/FirstChallenge";
+import FlatListDemo from "./src/screens/FlatListDemo";
+import ImagesFile from "./src/screens/ImagesFile";
 
 //create a component that return some jsx or in simple words simple function
 const App = () => {
@@ -31,6 +34,15 @@ const App = () => {
       {myEelement}
       {/* below is the fifth rule */}
       <Text>Hi, {getFullname("tony", "stark")} </Text>
+      <FirstChallenge />
+
+
+      {/* flatlist using demo */}
+      <FlatListDemo />
+
+      {/* usage of images in react native */}
+      <ImagesFile />
+      
     </View>
   );
 };
