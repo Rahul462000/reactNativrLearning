@@ -17,25 +17,25 @@ import NetflixCard from "./src/Components/NetflixCard";
 
 //create a component that return some jsx or in simple words simple function
 const App = () => {
-  const age = 12; //// first rule
-  const myEelement = <Text>Hello i am {age} year old!</Text>;
+  // const age = 12; //// first rule
+  // const myEelement = <Text>Hello i am {age} year old!</Text>;
 
-  const getFullname = (firstName, secondName) => {
+  // const getFullname = (firstName, secondName) => {
     /// here inside the brackets we have function parameters
-    return `My name is ${firstName}  ${secondName}`;
-  };
+  //   return `My name is ${firstName}  ${secondName}`;
+  // };
 
   // second rule means inside curly brackets never leave it empty or whenever we return some jsx we need to put a curly openclosed brackets
   return (
 
     // fourth rule is the view is used to render multiple JSX elements
     <View>
-      <Text style={styles.textStyle}>Hello everyone😉From app.js!</Text>
-      <CustomComponent />
+      {/* <Text style={styles.textStyle}>Hello everyone😉From app.js!</Text> */}
+      {/* <CustomComponent /> */}
       {/* third rule below */}
-      {myEelement}
+      {/* {myEelement} */}
       {/* below is the fifth rule */}
-      <Text>Hi, {getFullname("tony", "stark")} </Text>
+      {/* <Text>Hi, {getFullname("tony", "stark")} </Text> */}
       {/* <FirstChallenge /> */}
 
 
