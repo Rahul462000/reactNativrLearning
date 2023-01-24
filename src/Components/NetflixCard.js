@@ -66,7 +66,8 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     fontFamily:'Inter_300Light',
     color:'rgb(255,0,0)',
-    fontVariant:['small-caps']
+    textTransform:'capitalize',
+    // fontVariant:['small-caps'],  // not working
   },
   poster: {
     width: 250,
@@ -83,7 +84,8 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     textShadowColorOffset:{width: -1, height: 1},
     textShadowRadious:10,
-    textShadowColor:'rgb(0,0,0,0.75)'
+    textShadowColor:'rgb(0,0,0,0.75)',
+    textTransform:'capitalize',
   },
   poster_text: {
     color: "#999",

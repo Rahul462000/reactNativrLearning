@@ -14,6 +14,8 @@ import FlatListDemo from "./src/screens/FlatListDemo";
 import ImagesFile from "./src/screens/ImagesFile";
 import OurButton from "./src/screens/OurButton";
 import NetflixCard from "./src/Components/NetflixCard";
+import MultipleStyles from "./src/screens/MultipleStyles";
+import SecondChallenge from "./src/screens/SecondChallenge";
 
 //create a component that return some jsx or in simple words simple function
 const App = () => {
@@ -49,7 +51,13 @@ const App = () => {
       {/* <OurButton /> */}
 
       {/* making of netflix card */}
-      <NetflixCard />
+      {/* <NetflixCard /> */}
+
+      {/* how to  add multiply style (common styles) in one style component */}
+      {/* <MultipleStyles/> */}
+
+      {/* second challenge */}
+      <SecondChallenge />
       
     </View>
   );

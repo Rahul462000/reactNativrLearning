@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, StyleSheet, FlatList } from "react-native";
+import { Text, StyleSheet, FlatList } from "react-native";
 
 //  a FlatList in react native is a method just like the .map() method in react to show all the items from an array
 const FlatListDemo = () => {
@@ -45,7 +45,7 @@ const FlatListDemo = () => {
     <FlatList
     style={styles.listStyle}
       keyExtractor={(key) => {
-        return key.index;
+        return key;
       }}
 
     //   horizontaly scrolling like netflix
