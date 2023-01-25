@@ -16,6 +16,8 @@ import OurButton from "./src/screens/OurButton";
 import NetflixCard from "./src/Components/NetflixCard";
 import MultipleStyles from "./src/screens/MultipleStyles";
 import SecondChallenge from "./src/screens/SecondChallenge";
+import FlexBox from "./src/screens/FlexBox";
+import PositionAbsolute from "./src/screens/PositionAbsolute";
 
 //create a component that return some jsx or in simple words simple function
 const App = () => {
@@ -57,7 +59,13 @@ const App = () => {
       {/* <MultipleStyles/> */}
 
       {/* second challenge */}
-      <SecondChallenge />
+      {/* <SecondChallenge /> */}
+
+      {/* flexbox usage in react native */}
+      {/* <FlexBox /> */}
+
+      {/* positionabsolute in reactnative */}
+      <PositionAbsolute />
       
     </View>
   );
