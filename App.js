@@ -18,6 +18,9 @@ import MultipleStyles from "./src/screens/MultipleStyles";
 import SecondChallenge from "./src/screens/SecondChallenge";
 import FlexBox from "./src/screens/FlexBox";
 import PositionAbsolute from "./src/screens/PositionAbsolute";
+import CounterNumber from "./src/screens/hooks/CounterNumber";
+import RandomColorGenerator from "./src/screens/RandomColorGenerator";
+import ApiCalling from "./src/screens/hooks/ApiCalling";
 
 //create a component that return some jsx or in simple words simple function
 const App = () => {
@@ -65,7 +68,16 @@ const App = () => {
       {/* <FlexBox /> */}
 
       {/* positionabsolute in reactnative */}
-      <PositionAbsolute />
+      {/* <PositionAbsolute /> */}
+
+      {/* useState hooks usage in react native */}
+      {/* <CounterNumber /> */}
+
+      {/* random color generator game  */}
+      {/* <RandomColorGenerator /> */}
+
+      {/* useEffect hook and api inplementation */}
+      <ApiCalling />
       
     </View>
   );
